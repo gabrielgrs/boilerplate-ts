@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SEO configs Seo configs should match snapshot 1`] = `
+Object {
+  "openGraph": Object {
+    "locale": "pt_BR",
+    "site_name": "BoilerplateTS",
+    "title": "BoilerplateTS",
+    "type": "website",
+    "url": "",
+  },
+}
+`;
