@@ -1,17 +1,10 @@
-import { render, screen } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
-
-import * as theme from 'styles/theme'
+import { render, screen } from 'utils/test'
 
 import Button from './index'
 
 describe('<Button />', () => {
   it('should render the medium size by default', () => {
-    const { container } = render(
-      <ThemeProvider theme={theme}>
-        <Button>I am a Button</Button>
-      </ThemeProvider>
-    )
+    const { container } = render(<Button>I am a Button</Button>)
 
     expect(screen.getByRole('button', { name: /I am a Button/i })).toHaveStyle({
       backgroundColor: '#0f0f0f',
