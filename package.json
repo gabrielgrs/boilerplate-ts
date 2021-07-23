@@ -27,6 +27,8 @@
     "@types/jest": "^26.0.24",
     "@types/react": "17.0.14",
     "@types/styled-components": "^5.1.11",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-module-resolver": "^4.1.0",
     "babel-plugin-styled-components": "^1.13.2",
     "eslint": "7.31.0",
     "eslint-config-next": "11.0.1",
